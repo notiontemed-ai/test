@@ -3,6 +3,8 @@ function onOpen() {
     .createMenu('Генератор случайных чисел')
     .addItem('Сгенерировать 10 чисел', 'generateRandomNumbers')
     .addToUi();
+
+  addTestMenu_();
 }
 
 function generateRandomNumbers() {
